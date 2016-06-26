@@ -1,0 +1,8 @@
+*~
+index.html
+app/**/*.css
+app/**/*.js
+!app/vendors/**/*
+.sass-cache
+node_modules
+

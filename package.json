@@ -1,0 +1,25 @@
+{
+  "name": "audaweb",
+  "version": "1.0.0",
+  "description": "An audacity alternative",
+  "main": "./app/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.0.3",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-typescript": "^2.13.6",
+    "pug": "^2.0.0-beta3",
+    "sass": "^0.5.0",
+    "typescript": "^1.8.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "default": "gulp default",
+    "watch_ts": "gulp watch_ts",
+    "watch_pug": "gulp watch_pug",
+    "watch_sass": "gulp watch_sass"
+  },
+  "author": "",
+  "license": "ISC"
+}

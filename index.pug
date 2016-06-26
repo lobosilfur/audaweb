@@ -1,0 +1,23 @@
+-
+  const normalize = {
+    path: './app/vendors/normalize/normalize.css',
+    integrity: 'fVquC3DHMyHQJ7MasHkVMX2RLx5O6r2+Eh/NB9eZUSRGntVASwPIr1DFKzSpwTxD'
+  };
+
+doctype html
+html(lang='fr')
+  head
+    meta(charset='utf-8')
+    meta(content='width=device-width,initial-scale=1.0', name='viewport')
+    link(href=normalize.path, integrity=`sha384-${normalize.integrity}`
+    , rel='stylesheet')
+    link(href='./app/main.css', rel='stylesheet')
+    title= "Audaweb"
+  body
+    main
+      select(name='select-input')
+      button(type='button')= "RECORD"
+      button(type='button')= "PLAY"
+      a(download='recording')= "CLICK DOWNLOAD"
+    script(defer, src='./app/main-menu.js')
+    script(defer, src='./app/audio.js')
